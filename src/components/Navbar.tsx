@@ -30,7 +30,7 @@ const Navbar = () => {
     },
     { 
       name: "LeetCode", 
-      href: "https://leetcode.com/elouafi", 
+      href: "https://leetcode.com/u/AbdeljalilElouafi/", 
       icon: <Code2 className="h-5 w-5" /> 
     },
   ];
