@@ -20,15 +20,15 @@ const Projects = () => {
       title: "YouCamp – Booking Platform",
       description: "Booking platform for rural camping spots in Morocco with advanced search capabilities. Built with Laravel backend and vanilla JS frontend, designed with TailwindCSS.",
       tags: ["Laravel", "JavaScript", "TailwindCSS", "MySQL"],
-      github: "https://github.com/elouafi/youcamp",
-      image: "photo-1518770660439-4636190af475",
+      github: "https://github.com/AbdeljalilElouafi/YouCamp-Fil-Rouge",
+      image: "https://images.unsplash.com/photo-1517824806704-9040b037703b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
     },
     {
       title: "Eventbrite Clone – Event Management",
       description: "Users can create, manage, and track events. Built collaboratively with Git, using PHP OOP, JS, and Tailwind CSS.",
       tags: ["PHP", "OOP", "JavaScript", "TailwindCSS", "Git"],
-      github: "https://github.com/elouafi/eventbrite-clone",
-      image: "photo-1487058792275-0ad4aaf24ca7",
+      github: "https://github.com/AbdeljalilElouafi",
+      image: "https://images.unsplash.com/photo-1531058020387-3be344556be6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
     }
   ]);
 
@@ -66,7 +66,7 @@ const Projects = () => {
                 {/* Project Image */}
                 <div className="relative group h-56 overflow-hidden">
                   <img
-                    src={`https://source.unsplash.com/${project.image}`}
+                    src={project.image}
                     alt={project.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                   />

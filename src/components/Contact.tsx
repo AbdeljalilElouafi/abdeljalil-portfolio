@@ -1,4 +1,3 @@
-
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import { Mail, Phone, MapPin, Send } from "lucide-react";
 import { useState } from "react";
@@ -60,8 +59,8 @@ const Contact = () => {
     {
       icon: <MapPin className="h-5 w-5 text-purple" />,
       title: "Location",
-      value: "Youssoufia, Morocco",
-      href: "https://maps.google.com/?q=Youssoufia,Morocco"
+      value: "Casablanca, Morocco",
+      href: "https://maps.google.com/?q=Casablanca,Morocco"
     }
   ];
 
@@ -115,7 +114,7 @@ const Contact = () => {
               <h4 className="text-lg font-medium mb-4">Follow Me</h4>
               <div className="flex space-x-4">
                 <a 
-                  href="https://github.com/elouafi" 
+                  href="https://github.com/AbdeljalilElouafi" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full bg-card border border-border flex items-center justify-center hover:bg-purple/10 hover:border-purple/50 transition-all"
@@ -125,7 +124,7 @@ const Contact = () => {
                   </svg>
                 </a>
                 <a 
-                  href="https://linkedin.com/in/elouafi" 
+                  href="https://www.linkedin.com/in/abd-eljalil-elouafi-7412771b7/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full bg-card border border-border flex items-center justify-center hover:bg-purple/10 hover:border-purple/50 transition-all"

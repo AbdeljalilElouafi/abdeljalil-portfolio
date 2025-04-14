@@ -20,12 +20,12 @@ const Navbar = () => {
   const socialLinks = [
     { 
       name: "GitHub", 
-      href: "https://github.com/elouafi", 
+      href: "https://github.com/AbdeljalilElouafi", 
       icon: <Github className="h-5 w-5" /> 
     },
     { 
       name: "LinkedIn", 
-      href: "https://linkedin.com/in/elouafi", 
+      href: "https://www.linkedin.com/in/abd-eljalil-elouafi-7412771b7/", 
       icon: <Linkedin className="h-5 w-5" /> 
     },
     { 
@@ -59,7 +59,7 @@ const Navbar = () => {
           {/* Logo */}
           <a href="#home" className="flex items-center space-x-2">
             <span className="font-poppins text-xl font-bold text-gradient">
-              Elouafi<span className="text-purple">.</span>
+              MAE<span className="text-purple">.</span>
             </span>
           </a>
 
