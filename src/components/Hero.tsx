@@ -51,7 +51,7 @@ const Hero = () => {
             </a>
           </div>
 
-          <div className="absolute bottom-10 lef - animate-bounce flex justify-center w-full">
+          <div className="absolute bottom-12 left-0 right-0 animate-bounce flex justify-center w-full">
             <a href="#about" className="flex flex-col items-center text-foreground/70 hover:text-purple transition-colors duration-300">
               <span className="text-sm mb-2">Scroll Down</span>
               <ArrowDown className="h-5 w-5" />
