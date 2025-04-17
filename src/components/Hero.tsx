@@ -65,16 +65,21 @@ const Hero = () => {
             >
               Contact Me
             </AnimatedButton>
-            <AnimatedButton 
-              variant="outline"
-              icon={<Download className="h-4 w-4" />}
-              className="border-purple text-purple hover:text-white"
+            <a 
+              href="/lovable-uploads/ac86d1d9-c814-4f65-90d2-f944917c1bc1.png" 
+              download="Mohammed_Elouafi_CV.png"
             >
-              Download CV
-            </AnimatedButton>
+              <AnimatedButton 
+                variant="outline"
+                icon={<Download className="h-4 w-4" />}
+                className="border-purple text-purple hover:text-white"
+              >
+                Download CV
+              </AnimatedButton>
+            </a>
           </div>
 
-          <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
+          <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce flex justify-center w-full">
             <a href="#about" className="flex flex-col items-center text-foreground/70 hover:text-purple transition-colors duration-300">
               <span className="text-sm mb-2">Scroll Down</span>
               <ArrowDown className="h-5 w-5" />

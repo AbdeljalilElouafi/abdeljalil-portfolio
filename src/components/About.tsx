@@ -57,15 +57,15 @@ const About = () => {
               </h3>
               
               <p className="text-foreground/90 mb-6 leading-relaxed">
-                Currently a student at YouCode Youssoufia in web development, I'm passionate about 
-                building innovative solutions that solve real-world problems. My focus is on creating 
-                efficient, scalable, and user-friendly applications using modern technologies.
+                I am a passionate Full-Stack Developer with a strong foundation in software development and a focus on the IT and technology industry. My expertise lies in both front-end and back-end development, and I'm driven by a continuous desire to enhance my skills in communication and technology. I believe that the power of effective communication is essential to building successful software solutions and fostering teamwork.
+              </p>
+              
+              <p className="text-foreground/90 mb-6 leading-relaxed">
+                A significant milestone in my career was completing the ALX Data Science Training, where I gained valuable insights into data science and its application in real-world problem-solving. Currently, I am further expanding my expertise through ongoing training at YouCode, powered by Simplon, to stay ahead in the ever-evolving world of technology.
               </p>
               
               <p className="text-foreground/90 mb-8 leading-relaxed">
-                I'm looking for an end-of-year internship ("PFA") to apply my development skills 
-                in a dynamic company where I can contribute to meaningful projects while continuing 
-                to grow as a developer.
+                My career goal is to become a well-rounded and impactful software developer who contributes to projects that make a meaningful difference for the greater good. I am excited about opportunities to leverage my skills and knowledge to help drive innovation and solve complex challenges.
               </p>
 
               {/* Contact Info */}
@@ -80,7 +80,7 @@ const About = () => {
                 </div>
                 <div>
                   <p className="font-medium">Location:</p>
-                  <p className="text-foreground/80">Youssoufia, Morocco</p>
+                  <p className="text-foreground/80">Casablanca, Morocco</p>
                 </div>
                 <div>
                   <p className="font-medium">Phone:</p>

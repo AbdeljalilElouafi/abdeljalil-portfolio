@@ -9,6 +9,7 @@ import Education from "@/components/Education";
 import Languages from "@/components/Languages";
 import Contact from "@/components/Contact";
 import ParticleBackground from "@/components/ParticleBackground";
+import SplashCursor from "@/components/SplashCursor";
 import { ArrowUp } from "lucide-react";
 
 const Index = () => {
@@ -42,6 +43,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <ParticleBackground />
+      <SplashCursor />
       <Navbar />
       <Hero />
       <About />
