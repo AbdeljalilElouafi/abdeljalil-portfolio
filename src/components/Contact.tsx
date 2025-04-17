@@ -136,7 +136,7 @@ const Contact = () => {
                   </svg>
                 </a>
                 <a 
-                  href="https://leetcode.com/elouafi" 
+                  href="https://leetcode.com/u/AbdeljalilElouafi/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full bg-card border border-border flex items-center justify-center hover:bg-purple/10 hover:border-purple/50 transition-all"
