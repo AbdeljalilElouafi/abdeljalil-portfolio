@@ -63,7 +63,7 @@ const Hero = () => {
               icon={<ArrowDown className="h-4 w-4" />}
               className="bg-purple hover:bg-purple/90"
             >
-              Contact Me
+              Get in touch
             </AnimatedButton>
             <a 
               href="/lovable-uploads/ac86d1d9-c814-4f65-90d2-f944917c1bc1.png" 
@@ -74,7 +74,7 @@ const Hero = () => {
                 icon={<Download className="h-4 w-4" />}
                 className="border-purple text-purple hover:text-white"
               >
-                Download CV
+                View CV
               </AnimatedButton>
             </a>
           </div>
